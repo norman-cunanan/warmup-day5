@@ -1,0 +1,20 @@
+.individual-container a {
+  color: #447344;
+}
+
+/* Example even selectors */
+/* Note - for even styling I used default listed above
+    but I also could have used nth-child(even)
+   Also note - the first element is treated as 0 and
+    is therefore even, not odd. */
+.group-container:nth-child(odd) {
+  background-color: #4e7d4e;
+  color: #d5ffd5;
+}
+.individual-container:nth-child(odd) {
+  background-color: #90e890;
+  color: #254825;
+}
+.individual-container:nth-child(odd) a {
+  color: #254825;
+}
